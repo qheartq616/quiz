@@ -62,7 +62,7 @@ export default {
 			}
 			let reg = /^[1][3,4,5,6,7,8,9][0-9]{9}$/
 			if (!reg.test(this.phone)) {
-				alert('请填写正确的手机号码！')
+				alert('请填写正确的手机号码a！')
 				return
 			}
 			this.SET_INFO({
